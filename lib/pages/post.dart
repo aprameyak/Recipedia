@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:cooking_app/widgets/main_scaffold_with_bottom_navbar.dart';
 import 'package:cooking_app/auth/auth.dart';
-import 'package:cooking_app/src/rust/api/simple.dart';
-import 'package:cooking_app/src/rust/frb_generated.dart';
 
 class PostPage extends StatefulWidget {
   const PostPage({super.key});
@@ -40,7 +38,8 @@ class _PostPageState extends State<PostPage> {
       final now = DateTime.now().toUtc();
       final formattedTime = DateFormat("yyyy-MM-ddTHH:mm:ss'Z'").format(now);
 
-      final post = {
+      // Construct the payload for backend submission
+      final payload = {
         'recipe': _recipeController.text,
         'initRecipeImage': _initImageController.text,
         'allImageFollowUpsToCompare': _followUpControllers
@@ -50,14 +49,7 @@ class _PostPageState extends State<PostPage> {
         'timeStamp': formattedTime,
         'caption': _captionController.text,
       };
-      if (userID != null) {
-        final post = rust.new_post(
-          userID,
-          _recipeController.text,
-          _captionController.text,
-          _initImageController.text,
-        );
-      } else {
+      if (userID == null) {
         print("Not logged in");
       }
       // add backend here
