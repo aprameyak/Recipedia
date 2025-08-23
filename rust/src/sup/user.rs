@@ -1,6 +1,6 @@
 use crate::sup::*;
 use chrono::Utc;
-use mongodb::{Client, Collection, bson::doc};
+use mongodb::{Client, Collection, bson::{doc, to_bson}};
 impl User {
     pub fn new(
         user_id: String,
@@ -22,7 +22,8 @@ impl User {
         }
     }
     pub async fn add_post(&self, collection: &Collection<User>, post: Post) -> mongodb::error::Result<()> {
-        collection.update_one(doc! {"user_id": &self.user_id}, doc!{"$push": {"posts": post}},).await?;
+        let post_bson = to_bson(&post)?;
+        collection.update_one(doc! {"user_id": &self.user_id}, doc!{"$push": {"posts": post_bson}},).await?;
         Ok(())
     }
     

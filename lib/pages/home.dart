@@ -320,21 +320,34 @@ class _BackgroundRNGState extends State<_BackgroundRNG> {
 
   Future<String> fetchRandomImageUrl(String query) async {
     final apiKey = dotenv.env['PEXELS_API'];
-    final url = Uri.parse(
-      'https://api.pexels.com/v1/search?query=$query&per_page=30',
-    );
-    final response = await http.get(url, headers: {'Authorization': apiKey!});
-
-    if (response.statusCode == 200) {
-      final json = jsonDecode(response.body);
-      final List photos = json['photos'];
-      final randomPhoto = photos[Random().nextInt(photos.length)];
-      print(response.statusCode);
-      return randomPhoto['src']['original'];
-    } else {
-      print(response.statusCode);
-      throw Exception('Looks like pexel is ass too');
+    
+    // If no API key is available, return a default food image
+    if (apiKey == null || apiKey.isEmpty || apiKey == 'your_pexels_api_key_here') {
+      return 'https://images.unsplash.com/photo-1504674900240-9a9049b7a57a?w=1200&h=800&fit=crop';
     }
+    
+    try {
+      final url = Uri.parse(
+        'https://api.pexels.com/v1/search?query=$query&per_page=30',
+      );
+      final response = await http.get(url, headers: {'Authorization': apiKey});
+
+      if (response.statusCode == 200) {
+        final json = jsonDecode(response.body);
+        final List photos = json['photos'];
+        if (photos.isNotEmpty) {
+          final randomPhoto = photos[Random().nextInt(photos.length)];
+          print('Pexels API response: ${response.statusCode}');
+          return randomPhoto['src']['original'];
+        }
+      }
+      print('Pexels API error: ${response.statusCode}');
+    } catch (e) {
+      print('Error fetching from Pexels: $e');
+    }
+    
+    // Fallback to Unsplash image
+    return 'https://images.unsplash.com/photo-1504674900240-9a9049b7a57a?w=1200&h=800&fit=crop';
   }
 
   @override

@@ -9,8 +9,9 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   try {
     await dotenv.load(fileName: "assets/backend/credentials/.env");
-  } catch (_) {
+  } catch (e) {
     // Proceed without local .env in dev/CI
+    print('Could not load .env file: $e');
   }
   await Supabase.initialize(
     url: 'https://egdumlkkfxknccmvgzxo.supabase.co',
