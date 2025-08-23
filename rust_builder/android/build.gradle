@@ -33,11 +33,8 @@ android {
     // to bump the version in their app.
     compileSdkVersion 33
 
-    // Use the NDK version
-    // declared in /android/app/build.gradle file of the Flutter project.
-    // Replace it with a version number if this plugin requires a specfic NDK version.
-    // (e.g. ndkVersion "23.1.7779620")
-    ndkVersion android.ndkVersion
+    // Use the same NDK version as the main app for consistency
+    ndkVersion "25.1.8937393"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
