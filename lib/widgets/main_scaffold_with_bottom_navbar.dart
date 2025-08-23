@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:cooking_app/pages/landing.dart';
-import 'package:cooking_app/pages/search.dart';
+import 'package:cooking_app/pages/home_new.dart';
+import 'package:cooking_app/pages/search_new.dart';
 import 'package:cooking_app/pages/favorites.dart';
 import 'package:cooking_app/pages/prof.dart';
 import 'package:cooking_app/pages/post.dart';
+import 'package:cooking_app/theme/app_theme.dart';
 
 class MainScaffold extends StatelessWidget {
   final Widget body;
@@ -21,7 +22,7 @@ class MainScaffold extends StatelessWidget {
     Widget page;
     switch (index) {
       case 0:
-        page = const LandingPage();
+        page = const HomePage();
         break;
       case 1:
         page = const SearchPage();
@@ -47,7 +48,9 @@ class MainScaffold extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: true,
-        title: Text("Cheesy Cooking app"),
+        title: Text("CookingApp", style: AppTheme.heading2),
+        backgroundColor: AppTheme.surfaceColor,
+        foregroundColor: AppTheme.textPrimary,
         actions: actions,
       ),
       body: body,
@@ -55,9 +58,9 @@ class MainScaffold extends StatelessWidget {
         currentIndex: currentIndex,
         onTap: (index) => _navigate(context, index),
         type: BottomNavigationBarType.fixed,
-        backgroundColor: Colors.amber,
-        selectedItemColor: Colors.black,
-        unselectedItemColor: Colors.white,
+        backgroundColor: AppTheme.surfaceColor,
+        selectedItemColor: AppTheme.primaryColor,
+        unselectedItemColor: AppTheme.textSecondary,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Search'),

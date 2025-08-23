@@ -4,6 +4,7 @@ import 'package:cooking_app/auth/gate.dart';
 // import 'package:cooking_app/src/rust/api/simple.dart';
 // import 'package:cooking_app/src/rust/frb_generated.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'theme/app_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -28,13 +29,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Chris Cooking',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 255, 255, 255),
-        ),
-      ),
+      title: 'CookingApp',
+      theme: AppTheme.lightTheme,
       home: const AuthGate(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
