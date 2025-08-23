@@ -43,6 +43,13 @@ dependencies:
     path: rust_builder
   flutter_rust_bridge: 2.10.0
   google_fonts: ^6.2.1
+  
+  # Image handling dependencies
+  image_picker: ^1.0.7
+  image_cropper: ^5.0.1
+  file_picker: ^8.0.0+1
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.1
 
 dev_dependencies:
   flutter_test:

@@ -9,8 +9,8 @@ android {
     namespace = "com.example.cooking_app"
     compileSdk = flutter.compileSdkVersion
     
-    // Use a specific NDK version to avoid source.properties issues
-    ndkVersion = "25.1.8937393"
+    // NDK disabled - not needed for this Flutter app
+    // ndkVersion = "25.1.8937393"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
