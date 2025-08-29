@@ -1,5 +1,3 @@
-import 'package:supabase_flutter/supabase_flutter.dart';
-
 class UserProfile {
   final String id;
   final String email;

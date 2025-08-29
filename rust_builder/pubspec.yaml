@@ -1,5 +1,5 @@
-name: rust_lib_cooking_app
-description: "Utility to build Rust code"
+name: rust_lib_chef_social
+description: "Utility to build Rust code for ChefSocial"
 version: 0.0.1
 publish_to: none
 

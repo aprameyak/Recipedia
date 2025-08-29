@@ -472,7 +472,7 @@ packages:
     source: hosted
     version: "2.0.0"
   path:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path
       sha256: "75cca69d1490965be98c73ceaea117e8a04dd21217b37b292c9ddbec0d955bc5"
@@ -623,7 +623,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.2"
-  rust_lib_cooking_app:
+  rust_lib_chef_social:
     dependency: "direct main"
     description:
       path: rust_builder

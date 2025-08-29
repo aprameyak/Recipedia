@@ -1,10 +1,10 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:cooking_app/pages/prof.dart';
-import 'package:cooking_app/pages/favorites.dart';
-import 'package:cooking_app/pages/landing.dart';
-import 'package:cooking_app/pages/search.dart';
-import 'package:cooking_app/pages/post.dart';
+import 'package:chef_social/pages/prof.dart';
+import 'package:chef_social/pages/favorites.dart';
+import 'package:chef_social/pages/landing.dart';
+import 'package:chef_social/pages/search.dart';
+import 'package:chef_social/pages/post.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:cooking_app/pages/home_new.dart';
-import 'package:cooking_app/pages/search_new.dart';
-import 'package:cooking_app/pages/favorites.dart';
-import 'package:cooking_app/pages/prof.dart';
-import 'package:cooking_app/pages/post.dart';
-import 'package:cooking_app/theme/app_theme.dart';
+import 'package:chef_social/pages/home_new.dart';
+import 'package:chef_social/pages/search_new.dart';
+import 'package:chef_social/pages/favorites.dart';
+import 'package:chef_social/pages/prof.dart';
+import 'package:chef_social/pages/post.dart';
+import 'package:chef_social/theme/app_theme.dart';
 
 class MainScaffold extends StatelessWidget {
   final Widget body;
@@ -48,7 +48,7 @@ class MainScaffold extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: true,
-        title: Text("CookingApp", style: AppTheme.heading2),
+        title: Text("ChefSocial", style: AppTheme.heading2),
         backgroundColor: AppTheme.surfaceColor,
         foregroundColor: AppTheme.textPrimary,
         actions: actions,

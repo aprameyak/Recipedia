@@ -1,5 +1,5 @@
-import 'package:cooking_app/auth/auth.dart';
-import 'package:cooking_app/pages/login.dart';
+import 'package:chef_social/auth/auth.dart';
+import 'package:chef_social/pages/login.dart';
 import 'package:flutter/material.dart';
 
 class Reset extends StatefulWidget {
@@ -15,8 +15,8 @@ class _ResetState extends State<Reset> {
   final _confirm = TextEditingController();
   void reset() async {
     final email = _email.text.trim();
-    final newPass = _newPass.text;
-    final confirm = _confirm.text;
+    // final newPass = _newPass.text;
+    // final confirm = _confirm.text;
     try {
       await auth.resetPassword(email);
       if (mounted) {

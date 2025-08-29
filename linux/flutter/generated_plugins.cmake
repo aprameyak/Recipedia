@@ -9,7 +9,7 @@ list(APPEND FLUTTER_PLUGIN_LIST
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
-  rust_lib_cooking_app
+  rust_lib_chef_social
 )
 
 set(PLUGIN_BUNDLED_LIBRARIES)
