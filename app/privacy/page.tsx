@@ -10,11 +10,11 @@ export default function Privacy() {
           <div className="flex items-center space-x-3">
             <Image 
               src="/cooking-icon.svg" 
-              alt="CookingApp" 
+              alt="ChefSocial" 
               width={40} 
               height={40}
             />
-            <Link href="/" className="text-2xl font-bold text-green-700">CookingApp</Link>
+                          <Link href="/" className="text-2xl font-bold text-green-700">ChefSocial</Link>
           </div>
           <nav className="flex space-x-6">
             <Link href="/" className="text-gray-600 hover:text-gray-800 font-medium">
@@ -115,7 +115,7 @@ export default function Privacy() {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold mb-4 text-gray-800">7. Children's Privacy</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-gray-800">7. Children&apos;s Privacy</h2>
               <p className="text-gray-700 mb-4">
                 Our app is not intended for children under 13. We do not knowingly collect 
                 personal information from children under 13.
@@ -146,7 +146,7 @@ export default function Privacy() {
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2024 CookingApp. All rights reserved.</p>
+          <p>&copy; 2024 ChefSocial. All rights reserved.</p>
         </div>
       </footer>
     </div>
