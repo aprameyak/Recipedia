@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
               elevation: 0,
               flexibleSpace: FlexibleSpaceBar(
                 title: Text(
-                  'CookingApp',
+                  'ChefSocial',
                   style: AppTheme.heading2.copyWith(
                     color: AppTheme.primaryColor,
                     fontWeight: FontWeight.bold,

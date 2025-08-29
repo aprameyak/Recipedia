@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:cooking_app/widgets/main_scaffold_with_bottom_navbar.dart';
-import 'package:cooking_app/pages/settings/setmain.dart';
-import 'package:cooking_app/models/user_profile.dart';
-import 'package:cooking_app/services/profile_service.dart';
-import 'package:cooking_app/pages/profile_edit_page.dart';
-import 'package:cooking_app/theme/app_theme.dart';
+import 'package:chef_social/widgets/main_scaffold_with_bottom_navbar.dart';
+import 'package:chef_social/pages/settings/setmain.dart';
+import 'package:chef_social/models/user_profile.dart';
+import 'package:chef_social/services/profile_service.dart';
+import 'package:chef_social/pages/profile_edit_page.dart';
+import 'package:chef_social/theme/app_theme.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
@@ -20,20 +20,19 @@ class _ProfilePageState extends State<ProfilePage> {
   final ProfileService _profileService = ProfileService();
   UserProfile? _userProfile;
 
-  Future<void> _signOut() async {
-    setState(() => _isLoading = true);
-    try {
-      await Supabase.instance.client.auth.signOut();
-    } catch (e) {
-      if (mounted) {
-        ScaffoldMessenger.of(
-          context,
-        ).showSnackBar(SnackBar(content: Text('Error signing out: $e')));
-      }
-    } finally {
-      if (mounted) setState(() => _isLoading = false);
-    }
-  }
+  // Future<void> _signOut() async {
+  //   setState(() => _isLoading = true);
+  //   try {
+  //     await Supabase.instance.client.auth.signOut();
+  //   } catch (e) {
+  //     if (mounted) {
+  //       ScaffoldMessenger.of(
+  //         context,
+  //       ).showSnackBar(SnackBar(content: Text('Error signing out: $e')));
+  //   } finally {
+  //     if (mounted) setState(() => _isLoading = false);
+  //   }
+  // }
 
   @override
   void initState() {

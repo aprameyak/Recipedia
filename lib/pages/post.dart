@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:cooking_app/widgets/main_scaffold_with_bottom_navbar.dart';
-import 'package:cooking_app/auth/auth.dart';
+import 'package:chef_social/widgets/main_scaffold_with_bottom_navbar.dart';
+import 'package:chef_social/auth/auth.dart';
 
 class PostPage extends StatefulWidget {
   const PostPage({super.key});
@@ -36,19 +36,19 @@ class _PostPageState extends State<PostPage> {
   void _submitForm() {
     if (_formKey.currentState?.validate() ?? false) {
       final now = DateTime.now().toUtc();
-      final formattedTime = DateFormat("yyyy-MM-ddTHH:mm:ss'Z'").format(now);
+      // final formattedTime = DateFormat("yyyy-MM-ddTHH:mm:ss'Z'").format(now);
 
       // Construct the payload for backend submission
-      final payload = {
-        'recipe': _recipeController.text,
-        'initRecipeImage': _initImageController.text,
-        'allImageFollowUpsToCompare': _followUpControllers
-            .map((c) => c.text)
-            .where((s) => s.isNotEmpty)
-            .toList(),
-        'timeStamp': formattedTime,
-        'caption': _captionController.text,
-      };
+      // final payload = {
+      //   'recipe': _recipeController.text,
+      //   'initRecipeImage': _initImageController.text,
+      //   'allImageFollowUpsToCompare': _followUpControllers
+      //       .map((c) => c.text)
+      //       .where((s) => s.isNotEmpty)
+      //       .toList(),
+      //   'timeStamp': formattedTime,
+      //   'caption': _captionController.text,
+      // };
       if (userID == null) {
         print("Not logged in");
       }

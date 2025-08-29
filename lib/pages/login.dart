@@ -1,7 +1,7 @@
-import 'package:cooking_app/auth/auth.dart';
-import 'package:cooking_app/pages/reset.dart';
+import 'package:chef_social/auth/auth.dart';
+import 'package:chef_social/pages/reset.dart';
 import 'package:flutter/material.dart';
-import 'package:cooking_app/pages/reg.dart';
+import 'package:chef_social/pages/reg.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

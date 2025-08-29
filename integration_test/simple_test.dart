@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:cooking_app/main.dart';
-import 'package:cooking_app/src/rust/frb_generated.dart';
+import 'package:chef_social/main.dart';
+import 'package:chef_social/src/rust/frb_generated.dart';
 import 'package:integration_test/integration_test.dart';
 
 void main() {

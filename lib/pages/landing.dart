@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cooking_app/widgets/main_scaffold_with_bottom_navbar.dart';
+import 'package:chef_social/widgets/main_scaffold_with_bottom_navbar.dart';
 
 class LandingPage extends StatefulWidget {
   const LandingPage({super.key});
