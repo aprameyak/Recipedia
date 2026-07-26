@@ -1,3 +1,25 @@
 # ChefSocial
 
-A Flutter app with Supabase authentication built from scratch. ChefSocial is a social cooking platform where users can share recipes, connect with fellow food enthusiasts, and discover amazing culinary creations. Users can sign up, log in, and be routed to a home screen that welcomes them and allows logout. The app uses email/password authentication, auth-aware routing, and is designed to run on Android and web. To get started, install Flutter (>=3.4.0), clone the repository, run `flutter pub get`, and then `flutter run`. In `main.dart`, replace the Supabase credentials with your own from the Supabase dashboard, and ensure email authentication is enabled. The codebase is structured with clear separation between authentication logic and UI pages for easier learning and scalability.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge)
+![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white&style=for-the-badge)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=white&style=for-the-badge)
+
+## About
+
+**ChefSocial** is a social cooking platform built with **Flutter** and **Supabase** where users can share recipes, discover culinary creations, and connect with fellow food enthusiasts. It features a full authentication flow, a recipe feed, user profiles, search, and image handling — deployable on both Android and web.
+
+## Features
+
+- Email/password authentication with auth-aware routing via Supabase
+- Recipe feed with full post view and recipe card components
+- User profiles with edit functionality and profile image support
+- Image upload and cropping using the device camera or file picker
+- Search for users and recipes
+- Favorites system for saving recipes
+- Settings and account management
+
+## Technology Stack
+
+- **Mobile**: Flutter, Dart
+- **Backend/Database**: Supabase
+- **Image Handling**: image_picker, image_cropper, file_picker
