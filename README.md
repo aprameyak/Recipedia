@@ -1,186 +1,22 @@
-<<<<<<< HEAD
-# CookingApp Web Admin
+# ChefSocialAdmin
 
-A beautiful and modern web application for cooking enthusiasts, featuring recipe discovery, user management, and comprehensive support features.
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white&style=for-the-badge)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white&style=for-the-badge)
+
+## About
+
+**ChefSocialAdmin** is the companion web application for the ChefSocial mobile app — a social cooking platform for sharing and discovering recipes. Built with **Next.js**, **TypeScript**, and **Tailwind CSS**, it provides a landing page, support center, and privacy policy for the app's web presence.
 
 ## Features
 
-- 🏠 **Home Page**: Featured recipes, categories, and hero section
-- 🔒 **Privacy Policy**: Comprehensive privacy information and data handling
-- 🆘 **Support Center**: FAQ, contact information, and help resources
-- 🎨 **Modern Design**: Clean, responsive design matching the CookingApp mobile app
-- 📱 **Mobile Responsive**: Optimized for all device sizes
-- 🎯 **User-Friendly**: Intuitive navigation and clear information architecture
+- Landing page showcasing ChefSocial's recipe sharing and community features
+- Support center with FAQ and contact information
+- Privacy policy page for app store compliance
+- Responsive design built with Tailwind CSS
+- Server-side rendered via Next.js App Router
 
-## Tech Stack
+## Technology Stack
 
-- **Framework**: Next.js 15 with App Router
-- **Styling**: Tailwind CSS 4
-- **Language**: TypeScript
-- **Icons**: Lucide React
-- **Deployment**: Ready for Vercel, Netlify, or any static hosting
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <repository-url>
-cd cookingappadmin
-```
-
-2. Install dependencies:
-```bash
-npm install
-# or
-yarn install
-```
-
-3. Run the development server:
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
->>>>>>> e51c991b98296fe6652f02a617786e56506b319b
-```bash
-npm run dev
-# or
-yarn dev
-<<<<<<< HEAD
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Project Structure
-
-```
-cookingappadmin/
-├── app/
-│   ├── globals.css          # Global styles and CSS variables
-│   ├── layout.tsx           # Root layout with metadata
-│   ├── page.tsx             # Home page
-│   ├── privacy/
-│   │   └── page.tsx         # Privacy policy page
-│   └── support/
-│       └── page.tsx         # Support center page
-├── public/
-│   └── cooking-icon.svg     # App icon
-├── package.json
-└── README.md
-```
-
-## Pages
-
-### Home Page (`/`)
-- Hero section with call-to-action
-- Featured recipes showcase
-- Recipe categories
-- Footer with contact information
-
-### Privacy Policy (`/privacy`)
-- Comprehensive privacy information
-- Data collection and usage policies
-- User rights and contact information
-
-### Support Center (`/support`)
-- FAQ section
-- Contact information with email: aprameyakannan@gmail.com
-- Help categories
-- Additional resources
-
-## Design System
-
-The web app uses a consistent design system matching the CookingApp mobile app:
-
-### Colors
-- **Primary**: #2E7D32 (Deep Green)
-- **Secondary**: #FF6B35 (Orange)
-- **Accent**: #4CAF50 (Light Green)
-- **Background**: #F5F5F5 (Light Gray)
-- **Surface**: #FFFFFF (White)
-
-### Typography
-- **Font**: Inter (Google Fonts)
-- **Headings**: Poppins (for consistency with mobile app)
-
-## Customization
-
-### Adding New Pages
-1. Create a new folder in `app/` with the page name
-2. Add a `page.tsx` file with your component
-3. Update navigation in the header component
-
-### Styling
-- Use Tailwind CSS classes for styling
-- Custom CSS variables are defined in `globals.css`
-- Follow the existing design patterns for consistency
-
-### Content Updates
-- Update recipe data in the home page component
-- Modify FAQ items in the support page
-- Edit privacy policy content as needed
-
-## Deployment
-
-### Vercel (Recommended)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Deploy automatically
-
-### Other Platforms
-The app can be deployed to any static hosting platform:
-- Netlify
-- AWS S3 + CloudFront
-- GitHub Pages
-- Any VPS with nginx
-
-## Contact
-
-For support or questions about this web app:
-- **Email**: aprameyakannan@gmail.com
-- **Response Time**: 24-48 hours
-
-## License
-
-This project is part of the CookingApp ecosystem. All rights reserved.
-
----
-
-Built with ❤️ for cooking enthusiasts everywhere.
-=======
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> e51c991b98296fe6652f02a617786e56506b319b
+- **Frontend**: Next.js, React, TypeScript, Tailwind CSS
