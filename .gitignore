@@ -56,4 +56,4 @@ linux/.dart_tool/
 .DS_Store
 
 #mongodb connection string
-**.env
+**.envtarget/
