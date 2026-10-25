@@ -1,9 +1,9 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:chef_social/models/user_profile.dart';
-import 'package:chef_social/services/profile_service.dart';
-import 'package:chef_social/utils/image_picker_utils.dart';
-import 'package:chef_social/theme/app_theme.dart';
+import 'package:recipedia/models/user_profile.dart';
+import 'package:recipedia/services/profile_service.dart';
+import 'package:recipedia/utils/image_picker_utils.dart';
+import 'package:recipedia/theme/app_theme.dart';
 
 class ProfileEditPage extends StatefulWidget {
   final UserProfile? initialProfile;

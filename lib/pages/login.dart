@@ -1,7 +1,7 @@
-import 'package:chef_social/auth/auth.dart';
-import 'package:chef_social/pages/reset.dart';
+import 'package:recipedia/auth/auth.dart';
+import 'package:recipedia/pages/reset.dart';
 import 'package:flutter/material.dart';
-import 'package:chef_social/pages/reg.dart';
+import 'package:recipedia/pages/reg.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

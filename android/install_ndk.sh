@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Script to install the correct NDK version for the Cooking App
+# Script to install the correct NDK version for the Recipedia
 # This script uses the Android SDK Manager to download and install NDK version 25.1.8937393
 
 echo "Installing NDK version 25.1.8937393..."

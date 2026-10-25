@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:chef_social/widgets/main_scaffold_with_bottom_navbar.dart';
-import 'package:chef_social/auth/auth.dart';
+import 'package:recipedia/widgets/main_scaffold_with_bottom_navbar.dart';
+import 'package:recipedia/auth/auth.dart';
 
 class PostPage extends StatefulWidget {
   const PostPage({super.key});

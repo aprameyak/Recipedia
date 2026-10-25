@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:chef_social/auth/gate.dart';
-// import 'package:chef_social/src/rust/api/simple.dart';
-// import 'package:chef_social/src/rust/frb_generated.dart';
+import 'package:recipedia/auth/gate.dart';
+// import 'package:recipedia/src/rust/api/simple.dart';
+// import 'package:recipedia/src/rust/frb_generated.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'theme/app_theme.dart';
 
@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ChefSocial',
+      title: 'Recipedia',
       theme: AppTheme.lightTheme,
       home: const AuthGate(),
       debugShowCheckedModeBanner: false,

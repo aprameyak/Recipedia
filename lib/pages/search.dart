@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:chef_social/widgets/main_scaffold_with_bottom_navbar.dart';
+import 'package:recipedia/widgets/main_scaffold_with_bottom_navbar.dart';
 
 class SearchPage extends StatefulWidget {
   const SearchPage({super.key});

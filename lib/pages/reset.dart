@@ -1,5 +1,5 @@
-import 'package:chef_social/auth/auth.dart';
-import 'package:chef_social/pages/login.dart';
+import 'package:recipedia/auth/auth.dart';
+import 'package:recipedia/pages/login.dart';
 import 'package:flutter/material.dart';
 
 class Reset extends StatefulWidget {

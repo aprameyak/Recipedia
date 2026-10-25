@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:chef_social/main.dart';
-import 'package:chef_social/src/rust/frb_generated.dart';
+import 'package:recipedia/main.dart';
+import 'package:recipedia/src/rust/frb_generated.dart';
 import 'package:integration_test/integration_test.dart';
 
 void main() {

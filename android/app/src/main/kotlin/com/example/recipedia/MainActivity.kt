@@ -1,4 +1,4 @@
-package com.example.cooking_app
+package com.example.recipedia
 
 import io.flutter.embedding.android.FlutterActivity
 

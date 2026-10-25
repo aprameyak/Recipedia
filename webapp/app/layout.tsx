@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ChefSocial - Connect, Share & Cook Amazing Recipes",
-  description: "Join the ChefSocial community and discover thousands of delicious recipes from around the world. Share your culinary creations and connect with fellow food enthusiasts.",
+  title: "Recipedia - Connect, Share & Cook Amazing Recipes",
+  description: "Join the Recipedia community and discover thousands of delicious recipes from around the world. Share your culinary creations and connect with fellow food enthusiasts.",
   icons: {
     icon: "/cooking-icon.svg",
     shortcut: "/cooking-icon.svg",

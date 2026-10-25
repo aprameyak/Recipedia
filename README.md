@@ -1,4 +1,4 @@
-# ChefSocial
+# Recipedia
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white&style=for-the-badge)
@@ -6,7 +6,7 @@
 
 ## About
 
-**ChefSocial** is a social cooking platform built with **Flutter** and **Supabase** where users can share recipes, discover culinary creations, and connect with fellow food enthusiasts. It features a full authentication flow, a recipe feed, user profiles, search, and image handling — deployable on both Android and web.
+**Recipedia** is a social cooking platform built with **Flutter** and **Supabase** where users can share recipes, discover culinary creations, and connect with fellow food enthusiasts. It features a full authentication flow, a recipe feed, user profiles, search, and image handling — deployable on both Android and web.
 
 ## Features
 

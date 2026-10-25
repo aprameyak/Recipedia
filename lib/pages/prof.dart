@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:chef_social/widgets/main_scaffold_with_bottom_navbar.dart';
-import 'package:chef_social/pages/settings/setmain.dart';
-import 'package:chef_social/models/user_profile.dart';
-import 'package:chef_social/services/profile_service.dart';
-import 'package:chef_social/pages/profile_edit_page.dart';
-import 'package:chef_social/theme/app_theme.dart';
+import 'package:recipedia/widgets/main_scaffold_with_bottom_navbar.dart';
+import 'package:recipedia/pages/settings/setmain.dart';
+import 'package:recipedia/models/user_profile.dart';
+import 'package:recipedia/services/profile_service.dart';
+import 'package:recipedia/pages/profile_edit_page.dart';
+import 'package:recipedia/theme/app_theme.dart';
 
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});

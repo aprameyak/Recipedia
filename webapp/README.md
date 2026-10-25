@@ -1,4 +1,4 @@
-# ChefSocial Web
+# Recipedia Web
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white&style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge)
@@ -7,11 +7,11 @@
 
 ## About
 
-**ChefSocial Web** is the companion web application for the ChefSocial mobile app — a social cooking platform for sharing and discovering recipes. Built with **Next.js**, **TypeScript**, and **Tailwind CSS**, it provides a landing page, support center, and privacy policy for the app's web presence.
+**Recipedia Web** is the companion web application for the Recipedia mobile app — a social cooking platform for sharing and discovering recipes. Built with **Next.js**, **TypeScript**, and **Tailwind CSS**, it provides a landing page, support center, and privacy policy for the app's web presence.
 
 ## Features
 
-- Landing page showcasing ChefSocial's recipe sharing and community features
+- Landing page showcasing Recipedia's recipe sharing and community features
 - Support center with FAQ and contact information
 - Privacy policy page for app store compliance
 - Responsive design built with Tailwind CSS

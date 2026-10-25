@@ -36,11 +36,11 @@ export default function Home() {
           <div className="flex items-center space-x-3">
             <Image 
               src="/cooking-icon.svg" 
-              alt="ChefSocial" 
+              alt="Recipedia" 
               width={40} 
               height={40}
             />
-            <h1 className="text-2xl font-bold text-green-700">ChefSocial</h1>
+            <h1 className="text-2xl font-bold text-green-700">Recipedia</h1>
           </div>
           <nav className="flex space-x-6">
             <Link href="/" className="text-green-700 hover:text-green-800 font-medium">
@@ -60,11 +60,11 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-5xl font-bold mb-6">Connect, Share & Cook Amazing Recipes</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Join the ChefSocial community and discover thousands of delicious recipes from around the world. 
+            Join the Recipedia community and discover thousands of delicious recipes from around the world. 
             Share your culinary creations and connect with fellow food enthusiasts.
           </p>
           <button className="btn-primary bg-orange-500 hover:bg-orange-600 text-lg px-8 py-4">
-            Join ChefSocial Today
+            Join Recipedia Today
           </button>
         </div>
       </section>
@@ -151,11 +151,11 @@ export default function Home() {
               <div className="flex items-center space-x-3 mb-4">
                 <Image 
                   src="/cooking-icon.svg" 
-                  alt="ChefSocial" 
+                  alt="Recipedia" 
                   width={32} 
                   height={32}
                 />
-                <h4 className="text-xl font-bold">ChefSocial</h4>
+                <h4 className="text-xl font-bold">Recipedia</h4>
               </div>
               <p className="text-gray-300">
                 Your go-to destination for connecting with fellow food enthusiasts and discovering amazing recipes.
@@ -185,7 +185,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
-            <p>&copy; 2024 ChefSocial. All rights reserved.</p>
+            <p>&copy; 2026 Recipedia. All rights reserved.</p>
           </div>
         </div>
       </footer>

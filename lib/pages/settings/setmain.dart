@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:settings_ui/settings_ui.dart';
-import 'package:chef_social/pages/profile_edit_page.dart';
-import 'package:chef_social/services/profile_service.dart';
-import 'package:chef_social/models/user_profile.dart';
+import 'package:recipedia/pages/profile_edit_page.dart';
+import 'package:recipedia/services/profile_service.dart';
+import 'package:recipedia/models/user_profile.dart';
 
 class Setmain extends StatefulWidget {
   const Setmain({super.key});

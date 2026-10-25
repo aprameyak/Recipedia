@@ -1,4 +1,4 @@
--- Database setup for Cooking App Profile Management
+-- Database setup for Recipedia Profile Management
 -- Run this script in your Supabase SQL editor
 
 -- Create profiles table

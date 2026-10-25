@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:chef_social/pages/login.dart';
-import 'package:chef_social/pages/home.dart';
+import 'package:recipedia/pages/login.dart';
+import 'package:recipedia/pages/home.dart';
 
 class AuthGate extends StatelessWidget {
   const AuthGate({super.key});

@@ -1,4 +1,4 @@
-import 'package:chef_social/auth/auth.dart';
+import 'package:recipedia/auth/auth.dart';
 import 'package:flutter/material.dart';
 
 class Reg extends StatefulWidget {
