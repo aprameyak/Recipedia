@@ -2,7 +2,7 @@
 
 Recipedia is a Flutter app for sharing and browsing recipes, backed by Supabase for accounts and profiles. The repo also contains a small Next.js site in `webapp/` with the app's landing, support, and privacy pages.
 
-Recipedia started as ChefSocial, a four-person team project. Contributors: [@aprameyak](https://github.com/aprameyak), [@wings20055](https://github.com/wings20055), [@chriswu06](https://github.com/chriswu06), and [@carrotlemon](https://github.com/carrotlemon).
+Recipedia started as ChefSocial.
 
 ## Project status
 
